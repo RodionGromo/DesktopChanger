@@ -208,7 +208,7 @@ def setupWindow(window):
 					errors.append("Не установленно стандарное значение зеленого цвета")
 
 			if usingRandom["blue"].get():
-				if not all(randomColorsR):
+				if not all(randomColorsB):
 					errors.append("Синий цвет случайный, но значения не выставленны")
 			else:
 				if not defaultColor[2]:
